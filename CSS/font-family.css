@@ -1,3 +1,16 @@
+/* https://fonts.google.com/ */
+
 font-family: arial;
 
 Sirve para cambiar el estilo de la letra.
+Si queremos agregar una fuente extra debemos ir a google font, seleccionar 1 fuente, copiar el <link> y pegarlo en <head> del archivo html.
+Luegro agregar el font-family que nos espesifica la pagina, en este caso "font-family: 'Akshar', sans-serif;", el primero es la fuente agregada y el segundo es la fuente de respaldo.
+Al agregar varios tipos de fuentes debemos actualizar los links arriba a la derecha en view selected families.
+
+EJ:
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+</head>

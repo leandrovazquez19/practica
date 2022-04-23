@@ -1,0 +1,30 @@
+<style>
+Sirve para agrupar estilos.
+
+<style>
+  h2 { color: red;
+       backgroud-color: black;
+  }
+</style>
+En este ejemplo indica que todos los h2 van a tener su texto en color rojo y su fondo va a ser de color negro.
+
+
+<p style="color: red;"> Hola </p>
+Tambien se puede utilizar el style como atributo
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+Tambien se puede crear un archivo style.css en donde vamos a almacenar todos los codigos de tipo css.
+Para eso necesitamos crear el elemento <link hrer="url" rel="stylesheet"> dentro de <head>

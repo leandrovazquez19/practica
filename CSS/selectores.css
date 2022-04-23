@@ -1,0 +1,26 @@
+h1{
+
+}
+Estos son selectores que engloban los estilos a todos los elementos seleccionados.
+
+
+*{
+
+}
+Este es un selector universal, selecciona todos los elementos.
+
+
+.Grupo{
+
+}
+Este selector puede a grupar varios elementos para que se apliquen los mismos style a todos.
+Para eso vamos a necesitar aplicar el atributo class="Grupo" a los elementos que queramos modificar en html.
+
+
+h1,
+h2,
+p   {
+      color: green;
+      font-size: 50px;
+    }
+Tambien podemos agrupar varios elementos colocando una coma uno detras del otro.

@@ -1,0 +1,33 @@
+img {
+      border-style: solid;
+      border-style: none;
+      border-style: dotted; (punteado)
+      border-style: dashed; (linea cortada)
+      border-style: double; (doble linea)
+      border-style: groove; ("efecto 3d")
+      border-style: ridge;
+      border-style: inset;
+      border-style: outset;
+}
+Crea un borde al redor de una imagen.
+Si agregamos 2 valores a borderel primero modifica la parte superior e inferior y el segundo valor modifica izquierda y derecha.
+Si agregamos 3 valores a border el primero modifica la parte superior, el segundo los costados y el tercero la parte inferior.
+SI agregamos 4 valores a border el primero modifica la parte superior, el segundo la derecha, el tercero la parte inferior y el cuarto la izquierda.
+
+
+img {
+      border-color: rgb(36, 211, 138);
+}
+Modifica el color del borde
+
+
+img {
+      border-width: 20px;
+}
+Modifica el ancho del borde.
+
+
+img {
+      border-radius: 20px;
+}
+Redondea los bordes.
