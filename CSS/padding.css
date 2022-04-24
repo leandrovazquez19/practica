@@ -1,0 +1,18 @@
+img {
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+El padding es el espacio que hay entre el elemento y el border.
+
+img {
+    padding: 25px 30px;
+}
+Si escribo 2 padding solamente, el primero modifica el padding superior e inferior y el segundo modifica el lado izquierdo y derecho.
+
+img {
+    padding: 15px 30px 5px 25px;
+}
+Se pueden especificar cada ladoo del padding en solo 1 codigo de esta forma, los lados se modifican segun el orden en un sentido horario empezando por el lado superior.

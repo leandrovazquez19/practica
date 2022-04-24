@@ -1,0 +1,18 @@
+img {
+    margin: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+EL margin es el ultimo espacio que se encuentra despues del border.
+
+img {
+    margin: 25px 30px;
+}
+Si escribo 2 margin solamente, el primero modifica el margin superior e inferior y el segundo modifica el lado izquierdo y derecho.
+
+img {
+    margin: 15px 25px 10px 30px;
+}
+Se puede dar margin de cada lado en 1 solo codigo, el orden de los lados que se modifican van en sentido del reloj comenzando con la parte superior.

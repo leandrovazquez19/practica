@@ -24,3 +24,21 @@ p   {
       font-size: 50px;
     }
 Tambien podemos agrupar varios elementos colocando una coma uno detras del otro.
+
+
+#id {
+  color: red;
+}
+Este selector se utiliza para seleccionar a los elementos con la id que corresponde, por ejemplo <p id="id"> Hola </p>.
+
+
+a[title] {
+  color: red;
+}
+Este selector modifica a los elementos con los atributos que coincidan. EJ: elemento[attibuto], [atributo].
+
+
+a[href="url"] {
+  color: color;
+}
+Este sector modifica a los elementos con un atributo en especifico. EJ: elemento[atributo=valor], [atributo=valor].

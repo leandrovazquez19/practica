@@ -26,5 +26,11 @@ Tambien se puede utilizar el style como atributo
     
 </body>
 </html>
+
 Tambien se puede crear un archivo style.css en donde vamos a almacenar todos los codigos de tipo css.
 Para eso necesitamos crear el elemento <link hrer="url" rel="stylesheet"> dentro de <head>
+
+p {
+  background-color: red;
+}
+En el archivo css se modificarian los estilos de esta forma.
