@@ -1,0 +1,16 @@
+p {
+    color: red;
+}
+
+.class {
+    color: aliceblue;
+}
+
+#id {
+    color: aquamarine;
+}
+El orden de prioridades de modificación es : #id - .class - p.
+
+
+<p style="color: blue"> </p>
+En este caso el style en html tiene priridad sobre cualquier modificador en css, exceptuando cuando el codigo en css contiene !important.

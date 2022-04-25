@@ -1,0 +1,20 @@
+/* https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units */
+
+p {
+    width: 200px;
+}
+Es la medida que normalmente se utiliza para css.
+
+
+p {
+    width: 20vw;
+}
+Esta medida representa el 20% del ancho del navegador, utilizado para hacer webs responsive.
+
+
+p {
+    width: 15em;
+    font-size: 1.5em;
+}
+Esta medida es relativa al tamaño de la fuente.
+El segundo codigo dice que el tamaño de la letra tiene que ser 1.5 veces mas grande que el tamaño del texto del contenedor principal.
