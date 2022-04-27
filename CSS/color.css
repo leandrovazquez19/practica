@@ -1,3 +1,9 @@
-style="color: red;"
+/* https://www.google.com/search?q=color+picker&rlz=1C1ALOY_esAR982AR982&oq=color+picker&aqs=chrome..69i57j0i512l9.1924j0j7&sourceid=chrome&ie=UTF-8 */
 
+p {
+    color: red;"
+    color: #83c9c8;
+    color: rgb(219, 105, 210);
+    color: rgba(204, 230, 60, 0.4)
+}
 Sirve para dar color al texto.

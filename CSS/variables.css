@@ -1,0 +1,25 @@
+div {
+    --nombre-variable: white;
+}
+
+div {
+    backgound: var(--nombre-variable);   
+}
+Al colocar -- se crea una variable que su funcion es dar un nombre a un valor para despues poder usar ese valor o conjunto de valores con ese nombre en otra parte del codigo.
+
+
+div {
+    --nombre-variable2: gray;
+}
+
+div {
+    background: var(--nombre-variable2, gray);
+}
+Se puede utilizar un valor de respaldo en caso de un error con el tipeo de el nombre de la variable.
+
+
+div {
+    background: gray;
+    background: var(--nombre-variable2, gray);
+}
+Hay casos en donde el navegador no es compatible con las variables, en ese caso se debe agregar el valor fuera de var().

@@ -41,4 +41,10 @@ Este selector modifica a los elementos con los atributos que coincidan. EJ: elem
 a[href="url"] {
   color: color;
 }
-Este sector modifica a los elementos con un atributo en especifico. EJ: elemento[atributo=valor], [atributo=valor].
+Este selector modifica a los elementos con un atributo en especifico. EJ: elemento[atributo=valor], [atributo=valor].
+
+
+:root {
+  --nombre-de-valor: green;
+}
+Este selector es un modificador global de css, selecciona al codigo html.
