@@ -17,10 +17,14 @@ EJ:
 
 
 font-size: 60px;
-
 Sirve para aumentar o disminuir el texto segun la cantidad de px.
 
 
 font-weight: bold;
-
 Sirve para aclarar u oscurecer el texto.
+
+
+font-style: italic;
+font-style: normal;
+font-style: oblique;
+Sirve para declarar el estilo de texto.
