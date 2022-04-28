@@ -1,0 +1,40 @@
+img {
+    transform: rotate(90deg);
+    transform: rotate(-90deg);
+
+    transform: scale(2, 3);
+
+    transform: translate(100px, 30%);
+}
+Lo que hace rotate es rotar una imagen en el sentido del reloj si el numero es positivo, y si es negativo rota de forma antihoraria. No solo sirve para rotar imagenes, sirve para rotar muchos otros elementos.
+Lo que hace scale es reescalar, el primer valor indica el porcentaje de lo ancho y el segundo el alto.
+Lo que hace translate es mover al elemento de posicion, el primer valor indica el posicionamiento en el eje x y el segundo en el eje y.
+
+
+img {
+    filter: blur(5px);
+    filter: brightness(2);
+    filter: contrast(200%);
+    filter: grayscale(80%);
+    filter: invert(75%);
+    filter: saturate(200%);
+    filter: sepia(100%);
+    filter: opacity(50%);
+}
+El blur le da un efecto de desenfoque.
+Brightness le agrega brillo.
+Contrast ajusta el contraste.
+Grayscale lo que hace es sacar color.
+Invert invirte los colores.
+Sature agrega saturacion.
+Sepia da un efecto de sepia.
+Opacity indica la opacidad.
+
+
+img {
+    background: linear-gradient(sandyBrown, saddleBrown);
+    background: linear-gradient(90deg, sandyBrown, saddleBrown);
+}
+La funcion linear-gradient() hace un degradado de colores.
+Se le puede indicar que la direccion del degradado con los valores deg de 0 a 360.
+
