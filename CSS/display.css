@@ -1,0 +1,22 @@
+h1 {
+    display: inline;
+}
+display inline sirve para que los elementos puedan alinearse. Esto no permite que se utilize width ni height.
+
+
+h1 {
+    display: inline-block;
+}
+Sirve para lo mismo que inline nadamas que permite que usemos width y height.
+
+
+a {
+    display: block;
+}
+display block sirve para los elementos ocupen todo el largo de la pagina en 1 linea.
+
+
+div {
+    display: flex;
+}
+display flex sirve para que los elementos secundarios que esten dentro de un elemento primario se adapten en tamaño para encajar en diferentes pantallas.

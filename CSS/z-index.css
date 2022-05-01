@@ -1,0 +1,5 @@
+img {
+    z-index: -1;
+}
+z-index sirve para colocar un orden de sobreposicionamiento de los elementos de css. Por ejemplo cuando un elemento h1 tiene un z-index 1 y un elemento img tiene un z-index 0 (0 es el valor predeterminado) la img estara por debajo de el elemento h1.
+ 

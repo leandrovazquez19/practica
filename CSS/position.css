@@ -1,0 +1,19 @@
+a {
+    position: relative;
+    left: ;
+    right: ;
+    top: ;
+    bottom: ;
+}
+El position: relative sirve para modificar el posicionamiento del elemento desde su posicion, si el elemento a le indigo moverlo 15px left, el elemento se correra a la derecha 15px.
+Los demas elemento interpretan que el elemento relativo sigue en su posicionamiento real.
+
+a {
+    position: absolute;
+    left: ;
+    right: ;
+    top: ;
+    bottom: ; 
+}
+El position: relative sirve para modificar el posicionamiento del elemento sobre el espacio absoluto donde se encuentra, si el elemento a le indico moverlo 0px rught, el elemento se correra hasta el borde derecho a 0px.
+Los demas elementos actuan como si el elemento ya no existiera.
