@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+}
+flex direction row determina que los elementos comienzan desde la izquierda del contenedor y se muestran gorizontalmente en el orde que estan en el html.
+flex direction row es el predeterminado de las direcciones, si no se coloca flex direction, por defecto va a estar row.
+flex direction column hace que los elementos se coloquen de forma vertical estirandose para abarcar el width de la pagina.
+flex direction row reverse lo que hace es invertir el orden de forma horizontal  y comienza de derecha a izquierda.
+flex direction volumn reverse lo que hace es invertir el orden de forma vertical y comienzan en la parte inferior del contenedor.
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+justify content start significa que todos los elementos flexibles se agrupan al principio del contenedor.
+justify content end significa lo contrario, que los elementos flexibles se agruparan al final del contenedor.
+justify content center centra los elementos flexibles.
+justify content space around separa en partes iguales los elementos flexibles a lo largo del espacio del contenedor.
+justify content space between separa el primer y ultimo elemento en cada esquina del contenedor, y al resto los separa en espacios iguales.
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+}
+align content sirve para controlar el espacio que hay entre las diferentes filas.
+align content flex start agrupa los elementos flexibles al principio del contenedor .
+align content flex end agrupa los elementos flexibles al final del contenedor.
+align content center agrupa los elementos flexibles al centro del contenedor.
+align content space around separa a los elementos flexibles en partes iguales en el contenedor.
+align content space between separa al primero primer elemento flexible en una esquina y el ultimo elemento flexible en la esquina opuesta.
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+}
+align items stretch sirve para alinear los elementos a lo largo del eje transversal.
+align items flex start sirve para alinear los elementos al principio del eje transversal.
+align items flex end sirve para alinear los elementos al final del eje transversal.
+align items flex center sirve para alinear a los elementos al centro del eje transversal.
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+flex wrap nowrap es ek flex wrap por defecto, que indica que si los elementos flexibles no encajan dentro del contenedor, se tienen que salir del mismo.
+flex wrap wrap indica que los elementos flexibles que no encajan en el contenedor, en este caso formen una nueva linea por debajo.
+flex wrap wrap reverse indica que los elementos flexibles que no encajan en el contenedor, formen una nueva linea por encima.
