@@ -1,3 +1,6 @@
+/* Grid y Flex se pueden mezclar, solo hay que agregar una clase para utilizar Grid y otra para utilizar Flex */
+
+
 .container {
     display: flex;
     flex-direction: row;
@@ -69,3 +72,46 @@ align items flex center sirve para alinear a los elementos al centro del eje tra
 flex wrap nowrap es ek flex wrap por defecto, que indica que si los elementos flexibles no encajan dentro del contenedor, se tienen que salir del mismo.
 flex wrap wrap indica que los elementos flexibles que no encajan en el contenedor, en este caso formen una nueva linea por debajo.
 flex wrap wrap reverse indica que los elementos flexibles que no encajan en el contenedor, formen una nueva linea por encima.
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-basis: 100px;
+    flex-basis: 50%;
+}
+flex basis codifica el tamaño del elemento flexible segun la direccion de su eje (column, row).
+Su valor por defecto es auto pero se le pueden dar valores en px o porcentajes.
+Si el valor excede el tamaño de su contenedor, ajusta los tamaños al contenedor, no sobresale.
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-grow: 1;
+    flex-grow: 2;
+}
+flex grow define el tamaño de cada elemento segun la prioridad que se le da, mientras mas grande el numero, mas espacio ocupan en el contenedor.
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-shrink: 2;
+    flex-shrink: 3;
+    flex-shrink: 0;    
+}
+flex shrink sirve para encojer los elementos mas o menos (segun si su numero es mas alto o bajo) en su contenedor si los tamaños de los elementos sobrepasan el del contenedor.
+Si flex shrink es 0 los elementos se saldran de su contenedor ya que al indicar su valor a 0 se esta diciendo que no se encoja.
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex 0 1 auto;
+}
+flex se utiliza para usar "flex grow, flex shrink, flex basis" en uno solo, el primer valor corresponde a grow, el segundo corresponde a shrink y el tercero corresponde a basis.
+flex 0 1 auto es el valor predeterminado.

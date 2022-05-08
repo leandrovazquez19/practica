@@ -1,0 +1,52 @@
+/* Grid y Flex se pueden mezclar, solo hay que agregar una clase para utilizar Grid y otra para utilizar Flex */
+
+
+.container {
+    display: grid;
+    grid-template: 50px 1fr / 2fr 100px;
+    grid-template-columns: 50px fr 30%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+}
+Grid es un sistema de diseño que nos permite agregar elementos tanto horizontal como verticalmente en una pagina web.
+grid template columns define el orden de las columnas de la grilla. Se pueden usar valores en px o en fr (unidades fraccionarias) que fracciona el espacio disponible en un contenedor.
+Tambien se puede usar el valor repeat () para indicar en este caso que son 3 grillas con 1fr cada 1.
+grid template rows define el orden de las filas de la grilla.
+
+
+.container {
+    row-gap: 5px;
+    column-gap: 5px;
+    gap: 5px;
+}
+row gap es para dar una separacion entre las filas de las grillas que es distinto al margin.
+column gap es para dar una separacion entre colunmas de las grillas.
+gap es para dar una separacion tanto en columnas como en filas.
+
+
+.item {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+Este codigo sirve para asignar una cantidad de grillas que va a ocupar un elemento dentro dentro de un contenedor..
+grid column es papa asignar columnas.
+grid row es para asignar filas.
+
+
+.item {
+    grid-area: item1;
+    grid-area: item2;
+}
+grid area sirve para darle un nombre a la grilla.
+
+
+.container {
+    grid-template-areas: "item1 item2 item3";
+    grid-template-areas: "item1 . item3 ";
+    grid-template-areas: "item1 item1 item1";
+    grid-template-areas: "item1 item1" 
+                         "item2 item3" 
+                         "item3 item3";
+}
+grid template areas sirve para designar  los grid areas, si se escribe un "." o "..." significa que esa area de la grilla va a estar vacia.
+
