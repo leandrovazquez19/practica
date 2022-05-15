@@ -19,6 +19,9 @@
 ' let "nombre" = ;
 ' const "nombre" = ;
 ! Crea una variable
+! var
+! let
+! const
 
 
 ' var a;
@@ -57,15 +60,14 @@
 
 
 % Notacion de Corchetes:
-' var variable = "JavaScript";
-. Cadena:   J a v a S c r i p t
-. Indices:  0 1 2 3 4 5 6 7 8 9
-' console.log (variable[3]);
-! Esto nos mostrara la posicion numero 3 de los caracteres de JavaScript.
-
-
-
-
+' var array = [[1,2,3], [4,5,6], [7,8,9]];
+. Cadena:      [[1,2,3], [4,5,6], [7,8,9]]
+. Indices:         0        1        2
+. Subindices:    0 1 2    0 1 2    0 1 2
+' console.log (array[2][1]);
+' console.log (array[array.length - 1]);
+! Esto nos mostrara la subposicion 1 que seria "8"dentro de la posicion 2 que seria [7,8,9].
+! La segunda muestra el ultimo caracter de la cadena de string.
 
 
 */
