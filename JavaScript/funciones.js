@@ -35,6 +35,14 @@
 ! Se pueden agregar mas de 1 parametro.
 
 
+% Comprender Funciones:
+. Para hacer una funcion descriptiva, a los nombres de las funciones de les pone verbos como prefijos, luego un nombre que describa bien la funcion.
+. display El verbo display en los nombres de las funciones generalmente se utiliza cuando la funcion quiere mostrar un valor de un Array.
+. get     El verbo get en los nombres de las funciones generalmente se utilizan cuando la funcion devuelve un valor sin cambiarlo de ninguna manera.
+. is      El verbo is en los nombres de las funciones generalmente se utilizan cuando la funcion devuelve un valor booleano.
+. sum     El verbo sum en los nombres de las funciones generalmente se utilizan cuando la funcion devuelve una suma.
+
+
 % Funciones de Flechas:
 . Se utiliza para escribir el codigo mas limpio y mas corto.
 
@@ -51,13 +59,6 @@
 ' }
 ' cuenta();
 ! Esto lo que hace es determinar el parametro dentro de la funcion flecha para evitar un valor NuN.
-
-% Comprender Funciones:
-. Para hacer una funcion descriptiva, a los nombres de las funciones de les pone verbos como prefijos, luego un nombre que describa bien la funcion.
-. display El verbo display en los nombres de las funciones generalmente se utiliza cuando la funcion quiere mostrar un valor de un Array.
-. get     El verbo get en los nombres de las funciones generalmente se utilizan cuando la funcion devuelve un valor sin cambiarlo de ninguna manera.
-. is      El verbo is en los nombres de las funciones generalmente se utilizan cuando la funcion devuelve un valor booleano.
-. sum     El verbo sum en los nombres de las funciones generalmente se utilizan cuando la funcion devuelve una suma.
 
 
 % Condicionales Dentro de Funciones:
