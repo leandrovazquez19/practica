@@ -21,6 +21,7 @@
 ' perro.edad = 7;
 ! De esta manera se cambia el valor de una propiedad.
 
+
 % Metodos del objeto:
 . Se le denomina metodos del objeto cuando un objeto tiene como propedad una function(){}.
 
@@ -33,6 +34,7 @@
 ' perro.ladrido();
 ! Esto lo que hace es llamar a la funcion que esta dentro de la variable perro en la propiedad ladrido.
 ! Pueden llevar parametros y return.
+
 
 % This:
 . Hace referencia al objeto que contiene el metodo.

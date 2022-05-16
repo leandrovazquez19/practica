@@ -64,9 +64,7 @@
 
 ' for (var i = 0; i < 5; i++) {
 '   console.log("Escribir bucle");;
-    
 ' }
-
 ! En este caso significa, para(for) la variable i = 0, cuando sea menor que 5, aumentar en 1 su valor, cuando esta condicion sea true se pondra en consola "Escribir bucle". 
 
 */

@@ -9,20 +9,27 @@
 . number= representa numeros
 . object= representa objetos 
 
-
-
 ' console.log ();
 ! muestra en la consola los valores que estan entre parentesis.
 
 
-' var "nombre" = ;
-' let "nombre" = ;
-' const "nombre" = ;
-! Crea una variable
-! var
-! let
-! const
+% Tipos de variables
+. var 
+. let (Recomendable)
+. const (Recomendable)
 
+. |  Variable  |  Redeclarable  |  Modificable  |  Mayusculas  |    
+. |------------------------------------------------------------|
+' |     var    |       X        |       X       |              |
+' |     let    |                |       X       |              |
+' |    const   |                |               |       X      |
+
+? Alcance Global: Fuera de una funcion.
+? Alcance Local: Dentro de una funcion.
+? Alcance Bloque: Dentro de {} en bucles o condicionales.
+
+' var variable = valor;
+! De esta manera se crea una variable.
 
 ' var a;
 ' a = 10;
