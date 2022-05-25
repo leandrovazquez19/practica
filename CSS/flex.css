@@ -111,7 +111,7 @@ Si flex shrink es 0 los elementos se saldran de su contenedor ya que al indicar 
 .container {
     display: flex;
     flex-direction: row;
-    flex 0 1 auto;
+    flex: 0 1 auto;
 }
 flex se utiliza para usar "flex grow, flex shrink, flex basis" en uno solo, el primer valor corresponde a grow, el segundo corresponde a shrink y el tercero corresponde a basis.
 flex 0 1 auto es el valor predeterminado.
