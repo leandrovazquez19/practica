@@ -5,6 +5,11 @@
 . multiplicacion = *
 . division = / 
 . resto de una division = %
+. raiz cuadrada = Math.sqrt()
+. potencia = Math.pow(num, base)
+. redondeo para arriba = Math.ceil()
+. redondeo para abajo = Math.floor()
+. redondeo = Math.round()
 
 ' var suma = 3 + 2;
 ! suma tendria una variable de 5.

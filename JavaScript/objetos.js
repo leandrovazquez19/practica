@@ -4,7 +4,7 @@
 . Se crea una variable con un nombre, se sigue con {} y dentro el nombre de la propiedad seguido de : y luedo el valor de la propiedad.
 . Si el objeto tiene varias propiedades, cada 1 de las propiedades se las separa con una ",".
 
-' var gato {
+' var gato = {
 '   nombre: "Kiara",
 '   comidaFavorita: "Pescado",
 '   edad: 5,
@@ -13,13 +13,38 @@
 ' console.log(gato.nombre);
 ! De esta manera se puede acceder a una propiedad en especifico del objeto. 
 
-' var perro {
+' var perro = {
 '   nombre: "Simba",
 '   comidaFavorita: "Carne",
 '   edad: 5
 ' }
 ' perro.edad = 7;
 ! De esta manera se cambia el valor de una propiedad.
+
+
+% Busqueda de objetos:
+
+' function buscarElementosQuimicos(simbolo) {
+'     var simbolosQuimicos = {
+'         "Al": "Aluminio",
+'         "S": "Azufre",
+'         "Cl": "Cloro",
+'         "He": "Helio"
+'     }
+'     return simbolosQuimicos[simbolo];
+' }
+' console.log(buscarElementosQuimicos("S"));
+! Esto sirve para realizar una funcion que busque el valor de una propiedad.
+
+
+% Verificar si la propiedad existe:
+
+' var libros = {
+'     "Color": "Rojo",
+'     "Materia": "Matematicas"
+' }
+' libros.hasOwnProperty("Precio");
+! Este metodo sirve para verificar si la propiedad existe, en este caso lanzaria en consola false.
 
 
 % Metodos del objeto:
@@ -64,4 +89,14 @@
 '   }
 ' }
 ! De esta manera se puede cambiar el valor de una propiedad del objeto.
+
+
+% Borrar una Propiedad:
+
+' var objeto = {
+'   primer: "obejeto1",
+'   segundo: "objeto2"
+' }
+' delete objeto.segundo;
+! Delete sirve para eliminar,
 */

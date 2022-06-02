@@ -57,4 +57,11 @@
 ' var estaciones = ["Primavera", "Verano", "Otoño", "Invierno"];
 ' estaciones.shift();
 ! Este array resultaria en ["Verano", "Otoño", "Invierno"].
+
+
+% JSON:
+
+' var array = [1, 2, 3, 4, 5];
+' console.log(JSON.stringify(array));
+! Esto lo que hace es mostrar un array en consola de una mejor forma.
 */
