@@ -77,4 +77,3 @@
 ! La segunda muestra el ultimo caracter de la cadena de string.
 */
 
-augdiayfvdayida
