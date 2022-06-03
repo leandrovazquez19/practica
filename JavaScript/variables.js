@@ -75,6 +75,6 @@
 ' console.log (array[array.length - 1]);
 ! Esto nos mostrara la subposicion 1 que seria "8"dentro de la posicion 2 que seria [7,8,9].
 ! La segunda muestra el ultimo caracter de la cadena de string.
-
-
 */
+
+augdiayfvdayida

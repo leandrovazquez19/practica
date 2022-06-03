@@ -57,6 +57,14 @@
 ! De esta forma podemos controlar cuantas veces se repite el bucle.
 
 
+% Do While:
+
+' do {
+'   console.log("Hola");
+' } while (condition);
+! Esto lo que hace es lo mismo que while nadamas que se asegura de que por lo menos lo que esta dentro de do se ejecute 1 vez.
+
+
 % For:
 . For es una forma de crear bubles mas facil de entender a la vista porque la informacion de las veces que se repite el bucle esta entre parentecis.
 . Dentro del parentecis podemos escribir una variable que en este caso es i (index), una condificon y un operador de crecimieto o decrecimiento.
